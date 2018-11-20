@@ -22,6 +22,6 @@ after_success:
 
   # STATISTICS SERVICE
   - export STATISTICS_SERVICE=afermon/piggymetrics-statistics-service
-  - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
+  - docker build -t $STATISTICS_SERVICE:$COMMIT .
   - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
   - docker push $STATISTICS_SERVICE
