@@ -13,5 +13,6 @@ PUT	| /statistics/{account}	| Create or update time series datapoint for specifi
 
 For more information please refer to the main repository [afermon/PiggyMetrics-Kubernetes](https://github.com/afermon/PiggyMetrics-Kubernetes)
 
-## Refereces
+## Credits
+
 * Forked from [sqshq/PiggyMetrics](https://github.com/sqshq/PiggyMetrics)
